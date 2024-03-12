@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+* a{
+  text-decoration: none;
+  color: #000000;
+  margin: 0;padding: 0;
+}
+body{
+  background-image: url("./assets/bg.jpg");
+  object-fit: fill;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  height: 60vh;
+  width: 60vw;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px 80px;
+  padding-top: 0;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 4px 4px 20px #464646;
+}
+
+.profile{
+  height: 100px;
+  width: 100px;
+}
+.profile img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: solid white 5px;
+  transform: translateY(-50%) translateX(-25%);
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: max-content;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+h1{
+  color: #c903ae;
+  margin-bottom: 40px;
+  
+  font-family: "Rakkas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.info-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color:#818181;
+}
+
+.social{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.social a{
+  margin-right: 40px;
+}
+
+.social a:last-child{
+  margin-right: 0;
+}
+
+.social img{
+  height: 30px;
+  filter: drop-shadow(2px 2px 4px #818181);
+}
+
+.buttons{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  outline: none;
+  background-color: #ac1818;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 8px #818181;
+  cursor: pointer;
+}
+.message{
+  background-color: #f595f8;
+  margin-right: 80px;
+}
+.follow{
+background-color: #eb5d5d;
+}
